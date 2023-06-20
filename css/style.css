@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;700&display=swap');
+
+body{
+	background-color: #252525;
+	font-size: 14px;
+	font-family: 'Catamaran', sans-serif;
+}
+
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#ec3642;
+	--color-rojo:#ec3642;
+	--fondo-header:#212121;
+	--fondo-footer:#212121;
+	--color-footer:#ccc;
+}
+header{
+	background-color: var(--fondo-header);
+}
+
+h1{
+	font-size: 60px;
+}
+
+.btn-danger{
+	font-size: 20px;
+	border-radius: 0px;
+	background-color: var(--color-rojo);
+}
+
+#intro{
+	margin-top: 70px;
+	color: var(--color-footer);
+}
+
+#intro .card-body{
+	background-color: var(--color-negro);
+}
+
+#intro .card{
+	border-radius:0px; 
+	border-color: var(--color-negro);
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+}
+footer p{
+	margin-bottom: 5px;
+	color: var(--color-footer);
+}
+
+footer span{
+	color: var(--color-rojo);
+}
+
+#products{
+	padding:30px 0px;
+	
+}
+
+#products h2{
+	text-align: center;
+	color:#FFFFFF;
+	margin:20px 0px;
+	font-size:30px;
+}
+
+#products h6{
+	color:var(--color-rojo);
+	font-size: 20px;
+}
+
+#products .card{
+	border-radius: 0;
+	border-color: #161616;
+}
+
+#products .card-body{
+	background-color:#161616;
+	border-radius: 0;
+	border-color: transparent;
+	color:#FFFFFF;
+	font-weight:300;
+	padding:20px 10px;
+}
+
+#cta {
+	background-image: url("../img/bg-parallax.png");
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #FFFFFF;
+	padding: 50px;
+	margin-top: 10px;
+}
+
+#cta h2{
+font-size: 50px;	
+}
+
+#cta p{
+font-size: 20px;	
+}
+
+.btn-light:hover{
+	background-color: var(--color-rojo);
+	border-color: var(--color-rojo);
+	color: var(--color-footer);
+	border-radius: 0px;
+}
